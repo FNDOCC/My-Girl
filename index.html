@@ -3,10 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Bienvenida, Fátima 💖</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2rem;
+      margin: 0;
+      overflow: hidden;
+    }
+    .hero {
+      position: relative;
+      z-index: 1;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; text-align: center; padding: 2rem;">
-  <h1>¡Hola Fátima!</h1>
-  <p>Este es un test 💻✨</p>
-  <p>Muy pronto aquí habrá más amor, gifs y sorpresas uwu</p>
+<body>
+  <!-- Fondo animado con corazones -->
+  <script src="https://cdn.jsdelivr.net/npm/animate-heart-canvas@0.1.9/animate-heart-canvas-browser.js"></script>
+  <script>
+    new AnimateHeartCanvas(0, 360, 50, 10, 30, '#fff0');
+  </script>
+
+  <!-- Contenido principal -->
+  <div class="hero">
+    <h1>Te Amo, Fátima 💖</h1>
+    <p>Este es un test 💻✨</p>
+    <p>Muy pronto aquí habrá más amor, gifs y sorpresas uwu</p>
+  </div>
 </body>
 </html>
